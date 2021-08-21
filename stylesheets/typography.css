@@ -1,0 +1,72 @@
+p {
+    font-size: medium;
+}
+
+h1, h2, h3, h4, p, a, button{
+    font-family: 'Red Hat Display';
+}
+
+.header {
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    font-size: x-large;
+    padding-top: 7%;
+    font-family: 'Red Hat Display';
+}
+
+.subtext {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 700;
+    font-size: medium;
+    color: hsl(224, 23%, 55%);
+}
+
+.pricing {
+    line-height: 0%;
+    padding-top: 0%;
+    font-weight: 700;
+    font-size: small;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-text {
+    margin-left: auto;
+    margin-right: 5%;
+    font-weight: 700;
+    font-size: small;
+    color: hsl(245, 75%, 52%);
+}
+
+.annual-plan{
+    font-weight: 900;
+    margin-top: 25%;
+    font-size: medium;
+    color: hsl(223, 47%, 23%);    
+    margin-block-end: 0em;
+    margin-block-start: 0.5em;
+}
+
+@media only screen and (min-width: 767px) {
+    .annual-plan {
+        font-size: large;      
+    }
+    .change-text {
+        font-size: medium; 
+    }
+    .subtext {
+        font-size: 1.5em; 
+    }
+    .header {
+        font-size: 2em;
+    }
+    .pricing {
+        line-height: 0%;
+        padding-top: 0%;
+        font-weight: 700;
+        font-size: medium;
+        color: hsl(224, 23%, 55%);
+    }
+}
