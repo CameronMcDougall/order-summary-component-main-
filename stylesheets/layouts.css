@@ -43,7 +43,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: fixed;
-    background-color: hsl(225, 100%, 94%)
+    background-color: hsl(225, 100%, 94%);
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 767px) {
