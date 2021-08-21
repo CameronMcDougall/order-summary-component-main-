@@ -37,7 +37,6 @@
     flex-direction: column;
 }
 
-
 body {
     background-image: url(../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
@@ -45,9 +44,11 @@ body {
     background-position: fixed;
     background-color: hsl(225, 100%, 94%);
 }
+
 html, body {
     margin: 0; height: 100%; overflow: hidden
 }
+
 @media only screen and (min-width: 767px) {
     body {
         background-image: url(../images/pattern-background-desktop.svg);        
