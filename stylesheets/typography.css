@@ -49,6 +49,11 @@ h1, h2, h3, h4, p, a, button{
     margin-block-start: 0.5em;
 }
 
+.created-by-text{
+    text-align: center;
+    font-size: small;
+}
+
 @media only screen and (min-width: 767px) {
     .annual-plan {
         font-size: large;      

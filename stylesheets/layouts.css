@@ -46,7 +46,9 @@ body {
 }
 
 html, body {
-    margin: 0; height: 100%; overflow: hidden
+    margin: 0; 
+    height: 100%;
+    overflow: hidden
 }
 
 @media only screen and (min-width: 767px) {
@@ -60,5 +62,6 @@ html, body {
     flex-direction: column;  /* make main axis vertical */
     justify-content: center; /* center items vertically, in this case */
     align-items: center;     /* center items horizontally, in this case */
-    height: 98vh;
+    height: 100vh;
+    margin-bottom: 2%;
 }
